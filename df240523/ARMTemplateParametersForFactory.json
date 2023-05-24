@@ -8,6 +8,9 @@
 		"adls1_accountKey": {
 			"value": ""
 		},
+		"blob1_connectionString": {
+			"value": ""
+		},
 		"adls1_properties_typeProperties_url": {
 			"value": "https://datalk230523.dfs.core.windows.net/"
 		}

@@ -11,6 +11,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'adls1'"
 		},
+		"blob1_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'blob1'"
+		},
 		"adls1_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://datalk230523.dfs.core.windows.net/"
@@ -44,6 +48,9 @@
 					},
 					"adls1_accountKey": {
 						"value": "[parameters('adls1_accountKey')]"
+					},
+					"blob1_connectionString": {
+						"value": "[parameters('blob1_connectionString')]"
 					},
 					"adls1_properties_typeProperties_url": {
 						"value": "[parameters('adls1_properties_typeProperties_url')]"
